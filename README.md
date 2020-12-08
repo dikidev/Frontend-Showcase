@@ -8,4 +8,4 @@ External Link: https://big-5-animals.netlify.app/
 #### Project 2 
 ### <a href='https://progress-steps-js.netlify.app/'>Progress Step Showcase </a>
 <p>This is a 4 step progress bar made using HTML, CSS and JavaScript hosted on Netlify. </p>
-External Link: hhttps://progress-steps-js.netlify.app/
+External Link: https://progress-steps-js.netlify.app/
