@@ -14,3 +14,6 @@ External Link: https://progress-steps-js.netlify.app/
 ### <a href='https://distracted-goldwasser-ce0ec4.netlify.app/'>Navigation Menu Creative </a>
 <p> A CSS intensive navigation menu with many cool bits to oogle at. 
 <small> p.s I really love the way this turned out. </small>
+  External Link: https://distracted-goldwasser-ce0ec4.netlify.app/
+  
+  
