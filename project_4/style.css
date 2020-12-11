@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/8da38472451889.5be83d4eeaa01.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: -10;
+    left: -14;
+    width: 110vw;
+    height: 110vh;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #000000;
+    font-weight: 900;
+    -webkit-text-stroke: 1px #e1e1e1;
+    opacity: 0.25;
+}
