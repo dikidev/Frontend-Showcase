@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 body {
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
     font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
@@ -13,21 +15,44 @@ body {
     margin: 0;
 }
 
-.bg {
-    background: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/8da38472451889.5be83d4eeaa01.jpg') no-repeat center center/cover;
-    position: absolute;
-    top: -10;
-    left: -14;
-    width: 110vw;
-    height: 110vh;
-    z-index: -1;
-    filter: blur(0px);
+.search {
+    position: relative;
+    height: 50px;
 }
 
-.loading-text {
-    font-size: 50px;
-    color: #000000;
-    font-weight: 900;
-    -webkit-text-stroke: 1px #e1e1e1;
-    opacity: 0.25;
+.search .input {
+    background-color: #ffffff;
+    border : 0;
+    font-size: 18px;
+    height: 50px;
+    width: 50px;
+    transition: width 0.5s ease;
+}
+
+.btn {
+    background-color: #ffffff;
+    border: 0;
+    cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    transition: transform 0.5s ease;
+}
+
+.btn:focus, .input:focus {
+    outline: none;
+}
+
+.search.active .input {
+    width: 200px;
+    padding-left: 18px;
+    
+}
+
+.search.active .btn {
+    transform: translateX(200px);
+    
 }
