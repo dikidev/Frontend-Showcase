@@ -17,3 +17,6 @@
  
 #### 5. <a href="https://blurry-loading-screen.netlify.app/" target="_blank"> Blurry Loading DOM </a>
   <p> Set interval to DOM elements when loading. 
+
+#### 6. <a href="https://codepen.io/dikidev/pen/vYXgLRZ" target="_blank"> Form with Javascript Field Animation </a>
+  <p> Creative spin on the old boring form. </p>
